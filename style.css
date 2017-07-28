@@ -1,0 +1,33 @@
+body{
+	box-sizing: border-box;
+	height: 1000px;
+	display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#carousel {  
+    width: 400px;
+    height: 300px;
+    border: 1px solid black;
+    overflow: hidden;
+}	
+
+ul {
+	width: 2000px;
+	margin: 0px;
+	padding: 0px;
+}
+
+li {
+	width: 400px;
+  	height: 300px;
+	list-style: none;
+  	float: left;
+}
+
+.carousel-indicators {
+	top: 620px;
+	display: flex;
+    justify-content: center;	
+}
